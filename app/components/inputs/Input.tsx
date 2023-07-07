@@ -33,15 +33,13 @@ const Input: React.FC<InputProps> = ({
 					font-medium
 					leading-6
 					text-sm
-					text-gray-900
-				'
+					text-gray-900'
 			>
 				{label}
 			</label>
 			<div
 				className='
-					mt-2
-				'
+					mt-2'
 			>
 				<input
 					id={id}
@@ -69,7 +67,7 @@ const Input: React.FC<InputProps> = ({
 						sm:leading-6`,
 						errors[id] && 'focus:ring-rose-500',
 						disabled && 'opcaity-50 cursor-default'
-						)}
+					)}
 				/>
 			</div>
 		</div>
